@@ -1,27 +1,56 @@
 id: I1DBB1BDF
+legacy_id: P000306
+ocr_import_info:
+  bdrc_scan_id: W23435
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-12T07:57:37'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-12T07:59:25+00:00'
-last_modified: '2022-06-15T15:20:29.790353+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-09-02T01:03:59.060574+00:00'
+last_modified: 2022-09-02 09:04:12.419976
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W23435
-  title: སྒྲུབ་བརྒྱུད་ཀརྨ་ཀཾ་ཚང་བརྒྱུད་པ་རིན་པོ་ཆེའི་རྣམ་པར་ཐར་པ་རབ་བྱམས་ནོར་བུ་ཟླ་བ་ཆུ་ཤེལ་གྱི་ཕྲེང་བ
-  author: ''
+  id: http://purl.bdrc.io/resource/W23435
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: true
-  base:
-    5ADD:
-      image_group_id: I1691
-      title: ''
+  geo_restriction:
+  - CN
+  reproduction_of: http://purl.bdrc.io/resource/MW23435
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: སྒྲུབ་བརྒྱུད་ཀརྨ་ཀཾ་ཚང་བརྒྱུད་པ་རིན་པོ་ཆེའི་རྣམ་པར་ཐར་པ་རབ་བྱམས་ནོར་བུ་ཟླ་བ་ཆུ་ཤེལ་གྱི་ཕྲེང་བ།
+  author: ཟུར་མང་ཚེ་དབང་ཀུན་ཁྱབ།
+statistics: null
+quality: null
+bases:
+  I1692:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1692
+      total_pages: 706
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    order: 2
+    base_file: I1692.txt
+    legacy_id: v002
+  I1691:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1691
       total_pages: 690
-      order: 1
-      base_file: 5ADD.txt
-statistics: {}
-quality: {}
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I1691.txt
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
